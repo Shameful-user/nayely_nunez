@@ -1,0 +1,15 @@
+# GitHub Pages: publish the portfolio, not local tools or working material.
+exclude:
+  - AGENTS.md
+  - README.md
+  - docs
+  - exploraciones
+  - imagenes
+  - archivos
+  - .agents
+  - .codex
+  - .impeccable
+  - .tools
+  - .playwright
+  - .playwright-cli
+  - assets/downloads/README.md

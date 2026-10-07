@@ -1,0 +1,34 @@
+# Agent / AI project files
+.agents/
+.codex/
+.impeccable/
+.playwright/
+.playwright-cli/
+AGENTS.md
+
+# Internal project documentation
+docs/
+
+# Local tools, experiments and source originals (kept locally)
+.tools/
+exploraciones/
+imagenes/
+archivos/
+assets/downloads/README.md
+
+# Local / temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
