@@ -250,6 +250,10 @@ section[id], article[id] { scroll-margin-top: 24px; }
 }
 @media (max-width: 560px) {
   h1 { font-size: clamp(2.6rem, 11vw, 3.5rem); }
+  .hero-stage { position: relative; isolation: isolate; overflow: hidden; }
+  .hero-photo { position: absolute; grid-area: auto; align-self: stretch; inset: 0; height: 100%; object-fit: contain; object-position: right bottom; z-index: 0; }
+  .hero-stage::after { content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(to bottom, #080b0e 0%, #080b0e00 82%); }
+  .hero-grid { position: relative; padding-bottom: clamp(120px, 32vw, 160px); }
   .projects, .gallery-grid { grid-template-columns: 1fr; }
   .project-card:last-child { max-width: none; }
   .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; }
