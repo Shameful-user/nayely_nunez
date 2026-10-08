@@ -160,6 +160,7 @@ li { margin-bottom: 10px; }
 .module:nth-child(even) .case-media { order: 2; }
 .artist-intro .two-columns { align-items: end; }
 .artist-intro h1 { max-width: 600px; }
+.laura-case .capture-note { color: var(--muted); font-size: .875rem; max-width: 85ch; margin-block: 24px; }
 .artist-layout { display: grid; grid-template-columns: 1.7fr .7fr; gap: 48px; align-items: start; }
 .laura-mobile-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; max-width: 800px; margin-inline: auto; }
 .laura-exhibition-mobile { width: min(100%, 360px); justify-self: center; }
